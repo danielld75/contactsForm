@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    width: 70vw;
+    box-shadow: cadetblue 4px 4px 4px,
+                cadetblue -4px -4px 4px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.contactForm {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: brown;
+    text-shadow: 1px 1px #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+.contactList {
+    display: flex;
+    width: 70vw;
+    justify-content: space-around;
+}
+
+ul.contactList {
+    padding: 0;
+}
+
+.contactItem {
+    width: 256px;
+}
